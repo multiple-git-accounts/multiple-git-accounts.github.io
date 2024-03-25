@@ -1,0 +1,34 @@
+{
+  "name": "multiple-git-accounts.github.io",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "codenomnom",
+  "scripts": {
+    "dev": "vite --host --open",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "eslint --fix --ext .js ./",
+    "format": "prettier --write \"./**/*.{js,jsx,json,css}\"",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "buildpreview": "vite build && vite preview --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "fast-glob": "^3.3.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^6.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "postcss": "^8.4.38",
+    "postcss-nesting": "^12.1.0",
+    "prettier": "^3.2.5",
+    "the-new-css-reset": "^1.11.2",
+    "vite": "5.2.2",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
